@@ -1,0 +1,29 @@
+	h3{text-align: center;}
+	*{margin: 0;
+		padding:0;}
+
+		#ta{
+			height: 40px;
+			width: 463px;
+		}
+	form{
+		border: 2px solid;
+		width: 490px;
+		border-radius: 5px;
+		padding-left: 10px;
+		margin:3% 0 0 25%;
+		}
+		form *{margin: 5px;}
+label{
+				display: inline-block;
+				width: 100px;
+				text-align: center;}
+.r{display: inline;margin: 0;width: 0;
+	}
+.fio{width: 250px;}
+		div{
+			float: left;
+			}
+#btn{
+	margin-left: 29%;
+	}

@@ -1,0 +1,27 @@
+.text{
+	float: left;
+	width: 60%;
+}
+.img_wrap{
+	float: right;
+	width: 40%;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+@media screen and (max-width: 800px){
+	.small-menu{display: inline;}
+	.large-menu{display: none;}
+	.content{width: 100%;}
+}
+@media screen and (min-width:801px )and (max-width: 1900px){
+	.small-menu{display: none;}
+	.large-menu{display: inline;}
+	.large-menu ul li{display: inline;}
+		.large-menu ul{
+			list-style-type: none;
+		}
+	.content{width: 80%;
+		float: right;}
+}

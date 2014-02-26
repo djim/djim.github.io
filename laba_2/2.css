@@ -1,0 +1,86 @@
+body{position: absolute;
+	background:url(1.jpg) no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	width:1280px;
+}
+h2{
+	text-align: center;
+	font:25pt Forte, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-shadow:0 1px #ffffff,2px 2px 0 #dad7d7;
+}
+.list{
+	position: absolute;
+	width: 95%;
+	margin: 25px 0 0 25px;
+	padding: 0;
+	border-radius: 200px 200px 150px 690px; 
+	background: #A0D3F0;
+	border: 2px solid white;
+	opacity:inherit;
+	font-size: 1em;
+	text-shadow:0 1px 0 hsla(0, 0%, 100%, 0.75);
+	color: #000000;
+
+}
+ol,ul {
+
+}
+ol:nth-child(odd){
+	position: relative;
+	left: 0%;
+	float:left;
+	width: 15%;
+	overflow: inherit;
+	margin:2% 0% 0 5%;
+	padding: 0;
+	min-height: 250px;
+}
+ul, ol:nth-child(even){
+	position: relative;
+	width: 15%
+	right: 0%;
+	overflow: inherit;
+	float: left;
+	margin-top: 25%;
+	overflow: inherit;
+	margin:2% 0% 2% 0%;
+	padding: 1% 2% 1% 2%;
+	min-height: 250px;
+}
+img{
+	padding: 100px;
+	position: relative;
+	right: 0%;
+	padding: 0;
+	margin: 0;
+	max-width: 700px;
+	float: left;
+	box-shadow: 2px 2px 5px hsla(0,0%,0%,.3),-2px -2px 5px hsla(0,0%,0%,.3);
+}
+
+a{
+	display: block;
+	text-decoration: none;
+	background: url(ost.png) no-repeat;
+    padding: 0 0 0 70px;
+    margin: 0 0 0 10px;
+    min-height: 60px;
+    color: white;
+}
+footer{
+	position: fixed;
+	padding: 0;
+	left: 0;bottom: 0%;
+	overflow: auto;
+	display: block;
+	margin-top: 5%;
+	background-color: #0e83cd;
+	width: 100%;
+}
+
+
+
